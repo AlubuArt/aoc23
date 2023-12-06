@@ -51,7 +51,7 @@ function findProductOfMaxColorCounts(input) {
                 colorCounts[type] = count;
             }
         }
-        // Multiply the max counts of each color and add to the total sum
+        ƒ;
         totalSum += colorCounts.red * colorCounts.green * colorCounts.blue;
     }
     return totalSum;

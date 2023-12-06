@@ -58,7 +58,7 @@ function findProductOfMaxColorCounts(input: string): number {
               colorCounts[type as keyof typeof colorCounts] = count;
           }
       }
-ƒ
+
       totalSum += colorCounts.red * colorCounts.green * colorCounts.blue;
   }
 
