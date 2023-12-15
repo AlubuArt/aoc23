@@ -86,5 +86,4 @@ def get_adjacent_part_numbers(schematic, x, y, visited, rows, cols):
 
 # Rest of the functions remain the same
 
-
 print(sum_gear_ratios(schematic))  # Expected output: 467835
